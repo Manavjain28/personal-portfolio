@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manav Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <link rel="stylesheet" href="portfolio.css">
+
+</head>
+<body>
+    <header>
+        <div class="user">
+            <img src="image/manavphoto_new.JPG" alt="">
+            <h3 class="name">Manav jain</h3>
+            <p class="post">Web developer</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#education">education</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+ <div id="menu" class="fas fa-bars"></div>
+    <section class="home" id="home">
+        <h3>HI THERE !</h3>
+        <h1>I'M <span>Manav Jain</span></h1>
+        <p>My portfolio is a visual resume of My coding journey, showcasing the skills and projects I mastered along the way. It's a reflection of My growth and expertise in development. <br>
+        </p>
+        <p>I'm passionate about web design and eager to explore more opportunities in web development.
+        </p>
+        <a href="image/manavresume.pdf" download class="btn">Download Resume <i class="fa-solid fa-download"></i></a>
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading"> <span>about</span> me </h1>
+        <div class="row">
+            <div class="info">
+                <h3> <span> name : </span> Manav Jain</h3>
+                <h3> <span> course : </span> B-tech in Information Technology </h3>
+                <h3> <span> Programming languages : </span> C / C++  </h3>
+                <h3> <span> skills : </span>
+                    <li>FrontEnd (HTML, CSS, JavaScript)</li>
+                    <li>BackEnd (Node js)</li>
+                    <li>Database (SQL,MongoDb)</li>
+                    <li>Problem solving</li>
+                </h3>
+            </div>
+            
+                <div class="box">
+                    <span>5</span>
+                    <h3>project completed</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="education" id="education">
+        <h1 class="heading"> my <span>education</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2019</span>
+                <h3>Global Public School</h3>
+                <p>Kota--> Secondary education <br>10th grade-->78%</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2021</span>
+                <h3>Vidhanjali Academy</h3>
+                <p>Kota-->intermediate in science <br>12th grade-->74%
+                </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2021-2025</span>
+                <h3>Bharati vidhyapeeth pune</h3>
+                <p>B-tech in Information Technology <br> CGPA -->9
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>contact</span> me </h1>
+
+        <div class="row">
+
+            <div class="content">
+
+                <h3 class="title">contact info</h3>
+
+                <div class="info">
+                    <a href="https://www.linkedin.com/in/manav-jain-91b533228" target="_blank"> <i class="fa-brands fa-linkedin"></i> Manav linkdin</a>
+                    <a href="https://github.com/Manavjain28" target="_blank"><i class="fa-brands fa-github"></i> Manav github</a>
+                    <a href=""><i class="fas fa-map-marker-alt"></i> pune, maharastra - 411043. </a>
+
+                </div>
+
+            </div>
+
+            <form name="submit-to-google-sheet">
+
+                <input type="text" name="Name" placeholder="name" class="box">
+                <input type="email" name="Email" placeholder="email" class="box">
+                <textarea name="Message" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+                <span id="msg"></span>
+            </form>
+
+
+
+        </div>
+
+    </section>
+    <a href="#home" class="top">
+        <img src="images/scroll-top-img.png" alt="">
+    </a>
+    <script src="https://kit.fontawesome.com/09df685748.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="portfolio.js"></script>
+
+   
+</body>
+</html>
